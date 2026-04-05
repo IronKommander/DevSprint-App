@@ -1,4 +1,4 @@
-package com.cplover.krantikari
+package com.example.krantikari
 
 import org.junit.Test
 
