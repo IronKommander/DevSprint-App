@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Krantikari</string>
+    <string name="label_identity">Identity</string>
+    <string name="label_joke">Chuck Norris says…</string>
+    <string name="placeholder_name">Loading…</string>
+    <string name="placeholder_joke">Fetching a joke…</string>
+    <string name="btn_next">Next Please ↻</string>
+    <string name="btn_loading">Loading…</string>
 </resources>

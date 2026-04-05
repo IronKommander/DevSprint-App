@@ -29,6 +29,10 @@ android {
             )
         }
     }
+
+    buildFeatures{
+        viewBinding = true
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -46,7 +50,10 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
+    implementation("com.github.bumptech.glide:glide:5.0.5")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation(libs.androidx.cardview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
